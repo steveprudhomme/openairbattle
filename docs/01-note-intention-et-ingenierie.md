@@ -4,7 +4,7 @@
 
 Open Air Battle veut faire ressentir une bataille aérienne moderne sans demander de connaître l’aéronautique. Une partie doit pouvoir commencer après dix minutes d’explication et durer environ 25 à 35 minutes.
 
-La profondeur vient d’un choix visible à chaque tour : un appareil prêt peut accomplir une mission pour marquer des points, ou rester disponible pour protéger la formation. Après une mission ou une interception, il devient exposé. Le joueur gagne donc en prenant un risque, pas en mémorisant une longue chaîne d’exceptions.
+La profondeur vient d’un choix visible à chaque tour : un appareil prêt peut accomplir une mission pour marquer des points, ou rester disponible pour protéger la formation. Le déploiement l’engage sans l’exposer; après une mission ou une interception, il devient exposé. L’orientation indique si l’Appareil peut agir, tandis que l’exposition indique s’il peut être intercepté. Le joueur gagne donc en prenant un risque, pas en mémorisant une longue chaîne d’exceptions.
 
 ## 2. Boucle centrale
 
@@ -37,7 +37,7 @@ Cette boucle reprend des qualités pédagogiques éprouvées dans les TCG access
 - défausse;
 - piste de suprématie de 0 à 12.
 
-Il n’y a ni pile de réaction ni action pendant le tour adverse dans la version 0.1.0. Ce choix réduit fortement la charge cognitive et les disputes de priorité.
+Il n’y a ni pile de réaction ni action pendant le tour adverse dans la version 0.1.2. Ce choix réduit fortement la charge cognitive et les disputes de priorité.
 
 ## 5. Identité des factions
 
@@ -124,9 +124,8 @@ La séparation docs/, game-data/, src/ et tests/ permet d’avancer sur le jeu a
 - la formule estime la valeur moyenne, pas toutes les combinaisons;
 - les inventaires militaires russes exacts sont opaques et évolutifs;
 - aucune maquette graphique ou vérification d’impression n’est incluse;
-- aucun avis juridique n’a validé le nom, les marques ou le choix de licence;
+- aucun avis juridique n’a validé le nom, les marques ni la compatibilité de futures œuvres de tiers avec GPL-3.0-only;
 - la durée cible est une hypothèse à confirmer;
 - les 400 cartes forment un espace de conception, pas un ensemble prêt pour un tournoi.
 
 La prochaine étape saine est de tester les deux starters, noter chaque tour et ajuster seulement les cartes qui produisent un écart répété.
-

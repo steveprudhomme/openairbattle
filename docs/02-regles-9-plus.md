@@ -9,7 +9,16 @@ Un appareil ne peut faire qu’une grande action par tour :
 - Mission : marque ses points de Mission;
 - Interception : combat un appareil adverse exposé.
 
-Dans les deux cas, tourne la carte de côté. Elle est engagée et exposée jusqu’au début de ton prochain tour.
+Dans les deux cas, tourne la carte de côté. Elle devient engagée parce qu’elle a agi, et exposée parce qu’elle a pris part à une action aérienne. Ces deux états sont différents et durent normalement jusqu’au début de ton prochain tour.
+
+## Lexique des états
+
+- **Redressé** : l’Appareil est placé verticalement. Il peut accomplir une Mission ou faire une Interception si aucun effet ne l’en empêche.
+- **Engagé** : l’Appareil est tourné de côté. Il ne peut pas accomplir de Mission ni faire d’Interception. Cet état indique seulement s’il peut agir; il ne dit pas s’il peut être ciblé.
+- **Non exposé** : l’Appareil ne peut pas être choisi pour une Interception et ne compte pas comme « Appareil exposé ». Il peut être redressé ou engagé.
+- **Exposé** : l’Appareil a accompli une Mission ou fait une Interception. Il peut être choisi pour une Interception et par les effets qui demandent un Appareil exposé, jusqu’au début du prochain tour de la personne qui le contrôle. Il peut être engagé ou redressé.
+
+**Règle essentielle :** l’orientation d’une carte ne détermine jamais son exposition. Tourner un Appareil de côté ne l’expose pas à moins qu’une règle ou un effet ne le dise. Place un marqueur « Exposé » sur chaque Appareil exposé pour suivre cet état séparément.
 
 ## 1. Matériel
 
@@ -17,6 +26,7 @@ Chaque personne a :
 
 - un deck de 60 cartes;
 - des marqueurs de dégâts;
+- des marqueurs « Exposé »;
 - un compteur de suprématie de 0 à 12;
 - un marqueur « une ressource jouée » facultatif;
 - des marqueurs Verrouillage si son deck en utilise.
@@ -40,13 +50,13 @@ Les dégâts restent sur la carte. Dès qu’ils atteignent ou dépassent ses PV
 4. Si tu n’as aucune Ressource de base, montre ta main, remélange-la dans le deck et pioche 7 nouvelles cartes. Tu peux le faire une fois.
 5. Déterminez au hasard qui commence.
 
-La première personne ne pioche pas au début de son premier tour. Tous les appareils arrivent normalement engagés : personne ne peut donc marquer immédiatement avec un appareil tout juste déployé.
+La première personne ne pioche pas au début de son premier tour. Tous les Appareils arrivent normalement engagés, mais non exposés : personne ne peut donc marquer immédiatement avec un Appareil tout juste déployé, et l’adversaire ne peut pas l’intercepter.
 
 ## 4. Déroulement d’un tour
 
 ### A. Redressement
 
-Redresse toutes tes cartes engagées. Retire les effets qui duraient « jusqu’à ton prochain tour ».
+Redresse toutes tes cartes engagées. Tes Appareils cessent d’être exposés : retire leurs marqueurs « Exposé ». Retire les effets qui duraient « jusqu’à ton prochain tour ».
 
 ### B. Pioche
 
@@ -79,11 +89,13 @@ Tu ne peux jouer qu’une nouvelle Ressource de base par tour, mais tu peux dép
 ## 6. Déployer un Appareil
 
 1. paie son coût;
-2. place-le engagé dans ton espace aérien;
+2. L’Appareil est placé engagé dans ton espace aérien. Il n’est pas exposé.
 3. résous son effet « au déploiement »;
 4. respecte la limite de 5 Appareils.
 
 Si tu contrôles déjà 5 Appareils, tu dois attendre qu’une place se libère. Tu ne peux pas en détruire un volontairement.
+
+Un Appareil qui vient d’être déployé ne peut donc pas être intercepté, même s’il est physiquement tourné de côté. Seule une règle ou un effet qui l’expose peut changer cela.
 
 ## 7. Accomplir une Mission
 
@@ -91,7 +103,7 @@ Choisis un de tes Appareils redressés :
 
 1. engage-le;
 2. ajoute sa valeur de Mission à ta suprématie;
-3. il est maintenant exposé.
+3. il est maintenant exposé : place un marqueur « Exposé » sur lui.
 
 Un appareil engagé ne peut plus agir ce tour-ci.
 
@@ -108,7 +120,7 @@ Tu peux intercepter seulement un Appareil adverse exposé.
 
 Exemple : un appareil de Puissance 4 intercepte un appareil de Puissance 3. Le premier reçoit 3 dégâts et le second en reçoit 4.
 
-L’appareil qui intercepte devient lui aussi exposé.
+L’Appareil qui intercepte devient lui aussi exposé : place un marqueur « Exposé » sur lui. La cible l’était déjà et garde son marqueur.
 
 ## 9. Équipements, Tactiques et Soutiens
 
@@ -142,11 +154,11 @@ Réduis chaque quantité de dégâts reçue par cet Appareil de X, jusqu’à un
 
 ### Décollage rapide
 
-Cet Appareil arrive redressé au lieu d’arriver engagé. Il peut agir ce tour-ci.
+Cet Appareil arrive redressé et non exposé au lieu d’arriver engagé. Il peut agir ce tour-ci.
 
 ### Furtif
 
-Tant que cet Appareil est redressé, l’adversaire ne peut pas le choisir avec une Tactique ou un effet de Soutien. Furtif ne protège pas d’un effet qui touche tous les Appareils. Une fois exposé, il peut être choisi normalement.
+Tant que cet Appareil n’est pas exposé, l’adversaire ne peut pas le choisir avec une Tactique ou un effet de Soutien. Furtif ne protège pas d’un effet qui touche tous les Appareils. Une fois exposé, il peut être choisi normalement.
 
 ## 11. Mécaniques de faction
 
@@ -179,6 +191,7 @@ Si un effet te fait dépasser 12, garde le total réel. Dans le cas exceptionnel
 - un choix doit être légal au moment où il est fait;
 - « un autre » exclut la carte qui porte l’effet;
 - les nombres ne peuvent pas descendre sous 0;
+- engager ou redresser un Appareil ne change pas son exposition, sauf si une règle ou un effet le précise;
 - une carte quittant le jeu perd ses dégâts, marqueurs et effets temporaires.
 
 Le sous-type est aussi une liste de traits. Une carte est « hélicoptère », « drone », « chasseur », « bombardier », « maritime », « transport » ou « ravitaillement » si ce mot apparaît dans son nom ou son sous-type. Les accents, majuscules et singuliers ne changent pas le trait.

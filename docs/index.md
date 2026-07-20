@@ -10,5 +10,6 @@ Parcours recommandé :
 6. 04-reference-equilibrage.md pour modifier ou créer des cartes;
 7. 05-sources-et-hypotheses-2026.md pour la base factuelle.
 8. 06-rapport-validation.md pour les contrôles et limites de la version.
+9. ../ROADMAP.md pour les améliorations planifiées et leur priorité.
 
 Les catalogues Markdown sont faits pour la lecture; les CSV de game-data/ sont destinés aux outils.

@@ -76,7 +76,7 @@ Chaque commit doit être signé avec l’option -s :
 git commit -s -m "docs(regles): clarifier l’interception"
 ~~~
 
-La mention Signed-off-by certifie que vous avez créé la contribution ou que vous avez le droit de la soumettre sous la licence du projet, conformément au Developer Certificate of Origin 1.1. Ce mécanisme évite un CLA corporatif tout en protégeant la provenance juridique des apports. Ne signez jamais au nom d’une autre personne.
+La mention Signed-off-by certifie que vous avez créé la contribution ou que vous avez le droit de la soumettre sous la licence `GPL-3.0-only` du projet, conformément au Developer Certificate of Origin 1.1. Ce mécanisme évite un CLA corporatif tout en protégeant la provenance juridique des apports. Ne signez jamais au nom d’une autre personne.
 
 ## Demande de fusion
 
@@ -90,4 +90,3 @@ Décrire :
 - les sources publiques utilisées pour tout nouveau matériel réel.
 
 Un changement de puissance n’est pas « petit » : fournir au moins trois parties de test ou une justification probabiliste.
-

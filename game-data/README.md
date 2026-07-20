@@ -1,6 +1,6 @@
 # Données de jeu
 
-Les fichiers CSV sont les vues structurées du prototype 0.1.0.
+Les fichiers CSV sont les vues structurées du prototype 0.1.2.
 
 Champs de cartes :
 
@@ -27,4 +27,3 @@ Champs de decks :
 - cumul;
 
 Encodage : UTF-8. Séparateur : virgule. Les catalogues Markdown sont des vues de lecture; toute future automatisation devra désigner une source canonique unique et générer les autres formats.
-

@@ -1,4 +1,4 @@
-# Rapport de validation du prototype 0.1.0
+# Rapport de validation du prototype 0.1.2
 
 Date : 20 juillet 2026.
 
@@ -41,6 +41,30 @@ Courbe des 40 cartes actives :
 
 Coût moyen : 3,38 pour les États-Unis et 3,62 pour la Russie. La Russie paie une courbe plus lourde en échange de davantage de PV et de Blindage; cette hypothèse doit être testée en partie.
 
+## Validation des états et du ciblage
+
+| Situation | Orientation | Exposition | Interception adverse | Résultat |
+| --- | --- | --- | --- | --- |
+| déploiement normal | engagé | non exposé | interdite | conforme |
+| Décollage rapide avant action | redressé | non exposé | interdite | conforme |
+| après une Mission | engagé | exposé | autorisée | conforme |
+| après une Interception | engagé | exposé | autorisée | conforme |
+| redressement par un effet | redressé | exposition inchangée | selon l’exposition | conforme |
+
+Le lexique, la règle 6, le guide rapide et les cas de test séparent désormais l’orientation de la carte et son exposition. Furtif vérifie seulement l’exposition. Les effets d’AGM-154 JSOW et de Legion Pod ont été reformulés dans le catalogue Markdown et dans le CSV afin de rester fonctionnels avec cette règle.
+
+## Licence et feuille de route
+
+| Contrôle | Résultat |
+| --- | --- |
+| texte intégral de la GNU GPL version 3 dans `LICENSE` | conforme |
+| identifiant SPDX déclaré | `GPL-3.0-only` |
+| badge et déclaration du README alignés | conforme |
+| licence des contributions documentée | conforme |
+| feuille de route présente à la racine | conforme |
+
+La feuille de route distingue la réforme des états, terminée en 0.1.1, des changements de règles encore planifiés. Aucun chantier planifié n’est traité comme une règle active dans cette version.
+
 ## Budget des Appareils
 
 Les 80 Appareils de chaque faction respectent un écart maximal absolu de 0,5 par rapport à T(C) = 4C + 3, avant prise en compte des synergies de deck. La tolérance documentée est de 1.
@@ -62,9 +86,8 @@ Plages observées :
 - durée et rythme réels;
 - taux de victoire;
 - mise en page et taille de police des futures cartes;
-- validation juridique du nom, de la licence et des illustrations.
+- validation juridique du nom, des marques, des illustrations et de la compatibilité des futures œuvres de tiers avec GPL-3.0-only.
 
 ## Conclusion
 
-La structure et les comptes sont conformes au cahier des charges. L’équilibrage est mathématiquement cohérent au premier ordre, mais il n’est pas encore démontré empiriquement. La version 0.1.0 doit être considérée comme un prototype de test.
-
+La structure et les comptes sont conformes au cahier des charges. L’équilibrage est mathématiquement cohérent au premier ordre, mais il n’est pas encore démontré empiriquement. La version 0.1.2 doit être considérée comme un prototype de test. La nouvelle durée de protection de Furtif doit faire l’objet de parties de non-régression.

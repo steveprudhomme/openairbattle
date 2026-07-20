@@ -732,7 +732,7 @@ Note de design : Budget cible S(3) = 2,5×3 + 1 = 8,5; la limite propre au type 
 
 Coût : 3 | PV : — | Puissance : — | Mission : —
 
-Effet/Attaque : L’Appareil équipé peut accomplir une Mission sans perdre Furtif ce tour; défaussez ensuite cet Équipement.
+Effet/Attaque : L’Appareil équipé peut accomplir une Mission sans devenir exposé ce tour; défaussez ensuite cet Équipement.
 
 Note de design : Budget cible S(3) = 2,5×3 + 1 = 8,5; la limite propre au type Équipement et la condition écrite bornent la répétition.
 
@@ -876,7 +876,7 @@ Note de design : Budget cible S(2) = 2,5×2 + 1 = 6,0; la limite propre au type 
 
 Coût : 2 | PV : — | Puissance : — | Mission : —
 
-Effet/Attaque : L’Appareil équipé peut choisir un Appareil Furtif exposé comme si son texte était absent.
+Effet/Attaque : Tant que cet Équipement est en jeu, vous pouvez choisir un Appareil Furtif non exposé avec vos Tactiques et vos effets de Soutien comme si son texte Furtif était absent.
 
 Note de design : Budget cible S(2) = 2,5×2 + 1 = 6,0; la limite propre au type Équipement et la condition écrite bornent la répétition.
 

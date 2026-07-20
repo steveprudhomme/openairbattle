@@ -16,7 +16,12 @@ Les tests restent séparés du code de production.
 ## Tests unitaires futurs
 
 - paiement et redressement des ressources;
-- exposition et interception;
+- déploiement normal : Appareil engagé, non exposé et non interceptable;
+- Décollage rapide : Appareil redressé, non exposé, puis exposé seulement après son action;
+- engagement et exposition indépendants : engager n’expose pas, redresser par un effet ne retire pas l’exposition;
+- fin de l’exposition au début du prochain tour de la personne qui contrôle l’Appareil;
+- Furtif fondé sur l’exposition, y compris pour un Appareil engagé juste après son déploiement;
+- interdiction d’intercepter tout Appareil non exposé;
 - dégâts simultanés;
 - destruction et défausse des équipements;
 - Verrouillage, Réseau, Formation et Barrage;
@@ -41,4 +46,3 @@ Conserver pour chaque version :
 - cartes gardées, jouées et mortes en main.
 
 Un objectif raisonnable pour un premier échantillon de 100 parties est un taux de victoire compris entre 45 % et 55 % pour chaque starter, sans conclure à l’équilibre définitif.
-

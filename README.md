@@ -1,6 +1,6 @@
-[![Statut](https://img.shields.io/badge/statut-prototype%20jouable-orange)](CHANGELOG.md) [![Version](https://img.shields.io/badge/version-0.1.0-blue)](CHANGELOG.md) [![Licence](https://img.shields.io/badge/licence-choix%20requis-lightgrey)](LICENSE)
+[![Statut](https://img.shields.io/badge/statut-prototype%20jouable-orange)](CHANGELOG.md) [![Version](https://img.shields.io/badge/version-0.1.2-blue)](CHANGELOG.md) [![Licence](https://img.shields.io/badge/licence-GPL--3.0--only-blue)](LICENSE)
 
-**Open Air Battle est conçu pour être un jeu libre, gratuit et communautaire. Avant toute publication publique, une licence doit toutefois être choisie et activée dans le fichier LICENSE.**
+**Open Air Battle est un jeu libre, gratuit et communautaire. Les éléments originaux du projet sont distribués sous la GNU General Public License version 3 uniquement (`GPL-3.0-only`). Voir [LICENSE](LICENSE).**
 
 # Open Air Battle
 
@@ -9,7 +9,7 @@ Open Air Battle est un jeu de cartes à collectionner sur l’aviation militaire
 - les États-Unis coordonnent capteurs, désignations et frappes précises;
 - la Russie construit des formations résistantes et produit de fortes poussées de puissance.
 
-Le prototype 0.1.0 contient :
+Le prototype 0.1.2 contient :
 
 - un système de jeu complet et une méthode d’équilibrage chiffrée;
 - une extension États-Unis de 200 cartes uniques;
@@ -23,7 +23,7 @@ Le prototype 0.1.0 contient :
 1. Lire docs/03-guide-demarrage-rapide.md.
 2. Préparer un deck de 60 cartes par personne à partir de docs/decks/.
 3. Utiliser des cartes imprimées glissées devant des cartes ordinaires dans des protège-cartes opaques.
-4. Prévoir des marqueurs de dégâts, deux marqueurs Verrouillage et de quoi compter jusqu’à 12.
+4. Prévoir des marqueurs de dégâts, des marqueurs Exposé, deux marqueurs Verrouillage et de quoi compter jusqu’à 12.
 5. Jouer une première partie avec les aides de tour du livret.
 
 Le dépôt ne contient encore ni illustrations militaires ni logiciel exécutable. Le dossier src/ est réservé à une future implémentation, sans imposer de langage.
@@ -37,6 +37,7 @@ Le dépôt ne contient encore ni illustrations militaires ni logiciel exécutabl
 - docs/05-sources-et-hypotheses-2026.md : sources publiques et exclusions;
 - docs/extensions/ : catalogues complets;
 - docs/decks/ : listes détaillées des decks de départ;
+- ROADMAP.md : priorités, problèmes de conception et actions envisagées;
 - game-data/ : données tabulaires.
 
 ## État du projet
@@ -61,3 +62,5 @@ Les contributions de code, de règles, d’équilibrage, de documentation, de tr
 ## Indépendance
 
 Open Air Battle est un projet indépendant. Il n’est ni affilié, ni approuvé, ni commandité par un gouvernement, une force armée ou un fabricant. Aucune image officielle ou marque graphique n’est incluse.
+
+Les noms, marques, faits et futures œuvres de tiers ne sont pas automatiquement couverts par la licence du projet; leurs droits propres doivent être respectés.
