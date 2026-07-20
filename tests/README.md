@@ -39,7 +39,13 @@ Les tests restent séparés du code de production.
 - maximum de 1 point par Interception, sans point supplémentaire pour Barrage ou un effet postérieur;
 - victoire immédiate lorsque la récompense porte la suprématie à 15;
 - dégâts simultanés;
-- destruction et défausse des équipements;
+- présence de **Neutralisation électronique** et **Contre-mesures électroniques** comme Tactiques de coût 1 portant exactement « Détruisez un Équipement cible. »;
+- deux exemplaires de la Tactique de destruction d’Équipement dans chaque starter;
+- impossibilité de jouer une Tactique ciblée sans cible légale;
+- destruction d’un Équipement sans destruction automatique de l’Appareil qui le porte;
+- recalcul immédiat des PV si l’Équipement détruit les modifiait;
+- Furtif et exposition de l’Appareil porteur sans effet sur le ciblage de son Équipement;
+- distinction entre destruction ciblée, auto-défausse d’un Équipement et défausse lors d’une Retraite;
 - Verrouillage, Réseau, Formation et Barrage;
 - priorité des mots « ne peut pas »;
 - conditions de victoire simultanées.

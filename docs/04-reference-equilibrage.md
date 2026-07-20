@@ -81,6 +81,8 @@ Repères :
 
 Pour un effet permanent, multiplier la partie répétable par 1,5, puis ajouter la valeur immédiate. Une condition qui se réalise environ une fois sur deux réduit la portion conditionnelle de moitié.
 
+Depuis la version 0.1.6, **Neutralisation électronique** et **Contre-mesures électroniques** coûtent 1 et détruisent un Équipement cible. L’effet vaut 2,5 pour un budget S(1) de 3,5. La marge restante compense son caractère situationnel : la Tactique ne peut pas être jouée si aucun Équipement n’est présent. Chaque starter en contient 2 exemplaires; relever leur fréquence de cartes mortes et la valeur moyenne des Équipements détruits.
+
 ## 5. Courbe des starters
 
 Chaque deck possède 20 ressources. Les 40 autres cartes visent :

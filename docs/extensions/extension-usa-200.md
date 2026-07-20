@@ -978,13 +978,13 @@ Effet/Attaque : Placez un Verrouillage sur un Appareil adverse exposé.
 
 Note de design : Budget cible S(1) = 2,5×1 + 1 = 3,5; la limite propre au type Tactique et la condition écrite bornent la répétition.
 
-### Contre-offensive aérienne | Tactique — Opération | Quantité : 122/200
+### Neutralisation électronique | Tactique — Opération | Quantité : 122/200
 
 Coût : 1 | PV : — | Puissance : — | Mission : —
 
-Effet/Attaque : Un Appareil gagne +2 Puissance pour sa prochaine Interception ce tour.
+Effet/Attaque : Détruisez un Équipement cible.
 
-Note de design : Budget cible S(1) = 2,5×1 + 1 = 3,5; la limite propre au type Tactique et la condition écrite bornent la répétition.
+Note de design : Détruire un Équipement vaut 2,5 pour un budget cible S(1) = 3,5; la portée situationnelle de la Tactique justifie la marge de 1,0.
 
 ### Défense aérienne | Tactique — Opération | Quantité : 123/200
 

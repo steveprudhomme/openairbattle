@@ -1,4 +1,4 @@
-# Rapport de validation du prototype 0.1.5
+# Rapport de validation du prototype 0.1.6
 
 Date : 20 juillet 2026.
 
@@ -90,7 +90,19 @@ Le seuil de victoire, le matériel, le résumé, la boucle de jeu et les conditi
 | nouvelle main sans Ressource ou non synergique | elle doit être conservée | conforme |
 | tentative de second mulligan | interdite | conforme |
 
-La règle 3.4 et le guide rapide ne conditionnent plus le mulligan au contenu de la main. Avec 20 Ressources dans 60 cartes, une nouvelle main de 6 cartes contient au moins une Ressource dans environ 92,33 % des cas. Les catalogues et les starters restent inchangés, car cette règle ne modifie ni les cartes ni la construction des decks.
+La règle 3.4 et le guide rapide ne conditionnent plus le mulligan au contenu de la main. Avec 20 Ressources dans 60 cartes, une nouvelle main de 6 cartes contient au moins une Ressource dans environ 92,33 % des cas. Le chantier du mulligan ne modifie ni les cartes ni la construction des decks.
+
+## Validation de la destruction d’Équipement
+
+| Contrôle | États-Unis | Russie | Résultat |
+| --- | --- | --- | --- |
+| Tactique dédiée | `USA-122` Neutralisation électronique | `RUS-153` Contre-mesures électroniques | conforme |
+| texte d’effet | Détruisez un Équipement cible. | Détruisez un Équipement cible. | conforme |
+| coût | 1 | 1 | conforme |
+| exemplaires dans le starter | 2 | 2 | conforme |
+| Équipements avec auto-défausse inventoriés | 9 | 14 | conforme |
+
+Les catalogues Markdown et CSV portent les mêmes noms, coûts, effets et notes de design. Les listes Markdown et CSV des starters sont également alignées. Détruire l’Équipement ne détruit pas automatiquement l’Appareil porteur; ses PV sont toutefois recalculés immédiatement si l’Équipement les modifiait. Comme la cible est l’Équipement lui-même, Furtif et l’exposition de l’Appareil porteur ne modifient pas sa légalité.
 
 ## Licence et feuille de route
 
@@ -102,7 +114,7 @@ La règle 3.4 et le guide rapide ne conditionnent plus le mulligan au contenu de
 | licence des contributions documentée | conforme |
 | feuille de route présente à la racine | conforme |
 
-La feuille de route marque comme terminés la réforme des états en 0.1.1, le verrouillage de plateau en 0.1.3, la matrice des incitations en 0.1.4 et l’assouplissement du mulligan en 0.1.5. Aucun autre chantier planifié n’est traité comme une règle active dans cette version.
+La feuille de route marque comme terminés la réforme des états en 0.1.1, le verrouillage de plateau en 0.1.3, la matrice des incitations en 0.1.4, l’assouplissement du mulligan en 0.1.5 et les interactions avec les Équipements en 0.1.6. Aucun autre chantier planifié n’est traité comme une règle active dans cette version.
 
 ## Budget des Appareils
 
@@ -129,4 +141,4 @@ Plages observées :
 
 ## Conclusion
 
-La structure et les comptes sont conformes au cahier des charges. L’équilibrage est mathématiquement cohérent au premier ordre, mais il n’est pas encore démontré empiriquement. La version 0.1.5 doit être considérée comme un prototype de test. Furtif, la fréquence des Retraites, la répartition des points entre Mission et Domination ainsi que l’usage du mulligan doivent faire l’objet de parties de non-régression.
+La structure et les comptes sont conformes au cahier des charges. L’équilibrage est mathématiquement cohérent au premier ordre, mais il n’est pas encore démontré empiriquement. La version 0.1.6 doit être considérée comme un prototype de test. Furtif, la fréquence des Retraites, la répartition des points entre Mission et Domination, l’usage du mulligan et la valeur des destructions d’Équipement doivent faire l’objet de parties de non-régression.

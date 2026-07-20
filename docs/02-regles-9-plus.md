@@ -156,9 +156,13 @@ Paie le coût et attache la carte à un de tes Appareils. Un Appareil ne peut av
 
 Si un Équipement augmente les PV, recalcule immédiatement les PV maximums. Si l’Équipement quitte le jeu et que les dégâts restants atteignent les nouveaux PV, l’Appareil est détruit.
 
+Quand un effet dit « Détruisez un Équipement cible », choisis un Équipement en jeu et place-le dans la défausse de la personne qui le contrôle. L’Appareil qui le portait reste en jeu. Le mot « cible » désigne l’Équipement lui-même : l’exposition et Furtif de l’Appareil qui le porte n’empêchent pas de choisir cet Équipement.
+
 ### Tactique
 
 Paie le coût, lis et applique l’effet, puis place la carte dans ta défausse. Les Tactiques se jouent seulement pendant ton tour, lorsqu’aucun autre effet n’est en train de se résoudre.
+
+Si une Tactique demande une cible, tu ne peux la jouer que si une cible légale est présente en jeu.
 
 ### Soutien
 

@@ -29,6 +29,12 @@ Une Retraite n’est pas une destruction et ne déclenche pas les effets qui par
 
 Si l’Appareil adverse que tu interceptes est détruit, gagne 1 point de suprématie, même si ton Appareil est détruit en même temps. La riposte adverse ne rapporte aucun point. Tu peux gagner au plus 1 point par Interception. Une destruction causée ensuite par Barrage ne rapporte pas ce point.
 
+## Détruire un Équipement
+
+Les Tactiques **Neutralisation électronique** et **Contre-mesures électroniques** indiquent : « Détruisez un Équipement cible. » Place l’Équipement choisi dans la défausse de la personne qui le contrôle; l’Appareil qui le portait reste en jeu.
+
+La Tactique choisit l’Équipement, pas l’Appareil : Furtif et l’exposition de l’Appareil ne protègent donc pas son Équipement. Tu ne peux pas jouer cette Tactique s’il n’y a aucun Équipement à choisir.
+
 ## Ton tour
 
 Répète :
@@ -55,6 +61,7 @@ Répète :
 - 1 Équipement par Appareil;
 - 2 Soutiens maximum;
 - Furtif protège des Tactiques et effets de Soutien tant que l’Appareil n’est pas exposé;
+- un Équipement peut être détruit séparément de l’Appareil qui le porte;
 - dégâts au moins égaux aux PV : destruction;
 - mulligan facultatif une seule fois : 7 cartes remplacées par 6;
 - premier à 15 : victoire.

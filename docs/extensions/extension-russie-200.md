@@ -1230,9 +1230,9 @@ Note de design : Budget cible S(4) = 2,5×4 + 1 = 11,0; la limite propre au type
 
 Coût : 1 | PV : — | Puissance : — | Mission : —
 
-Effet/Attaque : Un Appareil gagne +1 Puissance et Blindage 1 pour sa prochaine Interception ce tour.
+Effet/Attaque : Détruisez un Équipement cible.
 
-Note de design : Budget cible S(1) = 2,5×1 + 1 = 3,5; la limite propre au type Tactique et la condition écrite bornent la répétition.
+Note de design : Détruire un Équipement vaut 2,5 pour un budget cible S(1) = 3,5; la portée situationnelle de la Tactique justifie la marge de 1,0.
 
 ### Leurres et trajectoires | Tactique — Opération | Quantité : 154/200
 

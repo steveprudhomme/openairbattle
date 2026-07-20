@@ -16,6 +16,23 @@ Tous les changements notables sont consignés ici. Le format suit Keep a Changel
 
 ### Sécurité
 
+## [0.1.6] - 2026-07-20
+
+### Ajouté
+
+- Tactiques **Neutralisation électronique** et **Contre-mesures électroniques**, portant « Détruisez un Équipement cible. »;
+- deux exemplaires de la réponse aux Équipements dans chaque starter;
+- cas de non-régression pour le ciblage, Furtif, l’exposition et le recalcul des PV.
+
+### Changé
+
+- règles, guide rapide, catalogues Markdown et CSV, starters, feuille de route et rapport alignés sur la destruction ciblée d’Équipement;
+- projet passé à la version 0.1.6.
+
+### Corrigé
+
+- la règle décrivant un Équipement qui quitte le jeu possède désormais une interaction adverse explicite dans les cartes imprimées.
+
 ## [0.1.5] - 2026-07-20
 
 ### Ajouté
@@ -102,7 +119,8 @@ Tous les changements notables sont consignés ici. Le format suit Keep a Changel
 - catalogues CSV;
 - politiques communautaires, de soutien, de sécurité et de gouvernance.
 
-[Unreleased]: [URL_DU_DEPOT]/compare/v0.1.5...HEAD
+[Unreleased]: [URL_DU_DEPOT]/compare/v0.1.6...HEAD
+[0.1.6]: [URL_DU_DEPOT]/compare/v0.1.5...v0.1.6
 [0.1.5]: [URL_DU_DEPOT]/compare/v0.1.4...v0.1.5
 [0.1.4]: [URL_DU_DEPOT]/compare/v0.1.3...v0.1.4
 [0.1.3]: [URL_DU_DEPOT]/compare/v0.1.2...v0.1.3

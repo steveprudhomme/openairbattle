@@ -23,6 +23,8 @@ Depuis la version 0.1.4, la Récompense de Domination donne une progression dire
 
 Depuis la version 0.1.5, chaque personne peut remplacer une fois sa main initiale, quel que soit son contenu. La nouvelle main ne compte que 6 cartes : cette perte d’une carte borne l’usage du mulligan tout en offrant une sortie face à une main non synergique.
 
+Depuis la version 0.1.6, chaque faction dispose aussi d’une Tactique de coût 1 capable de détruire un Équipement cible. Deux exemplaires sont intégrés à chaque starter afin que les Équipements adverses aient une réponse explicite dès les premières parties.
+
 ## 3. Types de cartes
 
 | Type | Fonction | Limite |
@@ -43,7 +45,7 @@ Depuis la version 0.1.5, chaque personne peut remplacer une fois sa main initial
 - défausse;
 - piste de suprématie de 0 à 15.
 
-Il n’y a ni pile de réaction ni action pendant le tour adverse dans la version 0.1.5. Ce choix réduit fortement la charge cognitive et les disputes de priorité.
+Il n’y a ni pile de réaction ni action pendant le tour adverse dans la version 0.1.6. Ce choix réduit fortement la charge cognitive et les disputes de priorité.
 
 ## 5. Identité des factions
 

@@ -12,7 +12,7 @@ Cette feuille de route ordonne les améliorations de règles et de construction 
 | Haute | Résolution du verrouillage de plateau — Board Lock | Terminé dans la version 0.1.3 |
 | Haute | Rééquilibrage de la matrice des incitations | Terminé dans la version 0.1.4 |
 | Modérée | Assouplissement de la variance du mulligan | Terminé dans la version 0.1.5 |
-| Suivi | Ajout des mécaniques d’interruption absentes | Audit puis mise en œuvre |
+| Suivi | Ajout des mécaniques d’interruption absentes | Terminé dans la version 0.1.6 |
 | À décider | Amélioration de la construction de deck | Décision de format requise |
 
 ## 1. Réforme de l’ergonomie de l’état des cartes — Priorité critique
@@ -110,7 +110,7 @@ La perte d’une carte punit l’abus tout en garantissant une échappatoire fac
 
 ## 5. Ajout des mécaniques d’interruption absentes — Priorité de suivi
 
-**Statut : audit puis mise en œuvre.**
+**Statut : terminé dans la version 0.1.6.**
 
 ### Problématique
 
@@ -124,11 +124,13 @@ S’assurer que le set de cartes imprimées contient explicitement des Tactiques
 
 Si aucun retrait d’Équipement indépendant de l’Appareil porteur n’est finalement conservé, réécrire la règle pour ne décrire que les cas réellement possibles. La suppression de la mention générique ne doit toutefois être envisagée qu’après l’audit des effets d’auto-défausse déjà présents.
 
-### Validation attendue
+### Résolution livrée
 
-- inventorier les effets qui défaussent ou détruisent un Équipement;
-- garantir au moins une réponse clairement identifiable dans le set imprimé si le retrait ciblé est retenu;
-- synchroniser chaque texte modifié entre le catalogue Markdown et le CSV.
+- l’audit confirme que 9 Équipements américains et 14 Équipements russes peuvent déjà se défausser eux-mêmes; la règle « quitte le jeu » reste donc nécessaire;
+- **Neutralisation électronique** (`USA-122`) et **Contre-mesures électroniques** (`RUS-153`) portent exactement « Détruisez un Équipement cible. »;
+- chaque Tactique coûte 1 et figure en 2 exemplaires dans le starter de sa faction;
+- les catalogues Markdown, les CSV et les listes de starters sont synchronisés;
+- les règles précisent le devenir de l’Équipement, de l’Appareil porteur et les interactions avec Furtif et l’exposition.
 
 ## 6. Amélioration de la construction de deck
 

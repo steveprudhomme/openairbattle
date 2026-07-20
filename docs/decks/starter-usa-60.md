@@ -180,13 +180,13 @@ Effet/Attaque : L’Appareil équipé satisfait Réseau même s’il est votre s
 
 Note de design : Budget cible S(2) = 2,5×2 + 1 = 6,0; la limite propre au type Équipement et la condition écrite bornent la répétition.
 
-### Patrouille aérienne de combat | Tactique — Opération | Quantité : 2 — cumul 35/60
+### Neutralisation électronique | Tactique — Opération | Quantité : 2 — cumul 35/60
 
 Coût : 1 | PV : — | Puissance : — | Mission : —
 
-Effet/Attaque : Placez un Verrouillage sur un Appareil adverse exposé.
+Effet/Attaque : Détruisez un Équipement cible.
 
-Note de design : Budget cible S(1) = 2,5×1 + 1 = 3,5; la limite propre au type Tactique et la condition écrite bornent la répétition.
+Note de design : Détruire un Équipement vaut 2,5 pour un budget cible S(1) = 3,5; la portée situationnelle de la Tactique justifie la marge de 1,0.
 
 ### Défense aérienne | Tactique — Opération | Quantité : 2 — cumul 37/60
 
