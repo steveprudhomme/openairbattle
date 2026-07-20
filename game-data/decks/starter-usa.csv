@@ -1,0 +1,28 @@
+deck,card_id,nom,quantite,cumul
+Starter États-Unis,USA-003,F-35A Lightning II — Percée discrète,1,1
+Starter États-Unis,USA-009,F-15EX Eagle II — Patrouille de supériorité,1,2
+Starter États-Unis,USA-013,F-16C Fighting Falcon — Patrouille de supériorité,2,4
+Starter États-Unis,USA-015,F/A-18E Super Hornet — Patrouille de supériorité,2,6
+Starter États-Unis,USA-019,EA-18G Growler — Brouillage d’escorte,2,8
+Starter États-Unis,USA-021,E-2D Advanced Hawkeye — Veille avancée,1,9
+Starter États-Unis,USA-029,KC-46A Pegasus — Pont aérien de carburant,2,11
+Starter États-Unis,USA-035,C-130J Super Hercules — Mobilité rapide,1,12
+Starter États-Unis,USA-055,P-8A Poseidon — Patrouille maritime,2,14
+Starter États-Unis,USA-057,MQ-4C Triton — Patrouille sans équipage,1,15
+Starter États-Unis,USA-061,MH-60S Seahawk — Insertion rapide,2,17
+Starter États-Unis,USA-063,MV-22B Osprey — Insertion rapide,1,18
+Starter États-Unis,USA-067,AH-1Z Viper — Chasse aux drones,1,19
+Starter États-Unis,USA-069,UH-1Y Venom — Insertion rapide,1,20
+Starter États-Unis,USA-073,UH-60M Black Hawk — Insertion rapide,2,22
+Starter États-Unis,USA-077,MQ-1C Gray Eagle — Patrouille sans équipage,2,24
+Starter États-Unis,USA-081,AIM-120D AMRAAM,2,26
+Starter États-Unis,USA-082,AIM-9X Block II,2,28
+Starter États-Unis,USA-095,AGM-179 JAGM,1,29
+Starter États-Unis,USA-100,AN/APG-77,1,30
+Starter États-Unis,USA-107,AN/AAQ-33 Sniper ATP,2,32
+Starter États-Unis,USA-111,MIDS JTRS / Link 16,1,33
+Starter États-Unis,USA-121,Patrouille aérienne de combat,2,35
+Starter États-Unis,USA-123,Défense aérienne,2,37
+Starter États-Unis,USA-161,Centre d’opérations aériennes,2,39
+Starter États-Unis,USA-163,Distributed Common Ground System,1,40
+Starter États-Unis,USA-200,Ravitaillement de base — JP-8,20,60

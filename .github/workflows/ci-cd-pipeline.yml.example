@@ -1,0 +1,38 @@
+name: Exemple CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer l’environnement du langage choisi
+        run: |
+          echo "Remplacer cette étape lorsque la pile technique sera choisie."
+
+      - name: Vérifier le format et les liens
+        run: |
+          echo "Ajouter ici le linter Markdown et le vérificateur de liens."
+
+      - name: Vérifier les catalogues
+        run: |
+          echo "Ajouter la commande décrite dans tests/README.md."
+
+      - name: Exécuter les tests
+        run: |
+          echo "Ajouter la suite unitaire, d’intégration et de non-régression."
+
+      - name: Produire un artefact sans le publier
+        run: |
+          echo "Construire ici le paquet reproductible."
+

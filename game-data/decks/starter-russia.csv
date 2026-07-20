@@ -1,0 +1,28 @@
+deck,card_id,nom,quantite,cumul
+Starter Russie,RUS-003,Su-35S — Patrouille guidée du sol,1,1
+Starter Russie,RUS-005,Su-30SM — Patrouille guidée du sol,2,3
+Starter Russie,RUS-007,Su-30SM2 — Patrouille guidée du sol,1,4
+Starter Russie,RUS-009,Su-34 — Frappe tout temps,2,6
+Starter Russie,RUS-011,MiG-31BM — Patrouille guidée du sol,2,8
+Starter Russie,RUS-015,MiG-29SMT — Patrouille guidée du sol,1,9
+Starter Russie,RUS-021,Su-25SM3 — Frappe tout temps,2,11
+Starter Russie,RUS-025,Yak-130 — Patrouille guidée du sol,1,12
+Starter Russie,RUS-035,Il-76MD-90A — Pont logistique,1,13
+Starter Russie,RUS-037,Il-78M — Ravitaillement de régiment,2,15
+Starter Russie,RUS-045,Ka-52M — Feu concentré,2,17
+Starter Russie,RUS-047,Ka-52 — Feu concentré,1,18
+Starter Russie,RUS-055,Mi-8AMTSh — Assaut aéromobile,2,20
+Starter Russie,RUS-057,Mi-8MTV-5 — Assaut aéromobile,1,21
+Starter Russie,RUS-069,Forpost-R — Observation persistante,2,23
+Starter Russie,RUS-073,Orlan-10 — Observation persistante,2,25
+Starter Russie,RUS-081,R-77-1,2,27
+Starter Russie,RUS-083,R-73,1,28
+Starter Russie,RUS-094,UMPK pour FAB-500 M-62,2,30
+Starter Russie,RUS-100,9K121 Vikhr-1,1,31
+Starter Russie,RUS-107,N036 Byelka,2,33
+Starter Russie,RUS-110,Sh-141,1,34
+Starter Russie,RUS-121,Patrouille défensive de secteur,2,36
+Starter Russie,RUS-123,Engagement R-37M,2,38
+Starter Russie,RUS-161,Poste de guidage au sol,1,39
+Starter Russie,RUS-163,Réseau de défense aérienne intégré,1,40
+Starter Russie,RUS-200,Ravitaillement de base — TS-1,20,60
