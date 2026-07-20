@@ -1,4 +1,4 @@
-# Rapport de validation du prototype 0.1.2
+# Rapport de validation du prototype 0.1.3
 
 Date : 20 juillet 2026.
 
@@ -53,6 +53,19 @@ Coût moyen : 3,38 pour les États-Unis et 3,62 pour la Russie. La Russie paie u
 
 Le lexique, la règle 6, le guide rapide et les cas de test séparent désormais l’orientation de la carte et son exposition. Furtif vérifie seulement l’exposition. Les effets d’AGM-154 JSOW et de Legion Pod ont été reformulés dans le catalogue Markdown et dans le CSV afin de rester fonctionnels avec cette règle.
 
+## Validation de la Retraite
+
+| Cas | Résultat attendu | Résultat |
+| --- | --- | --- |
+| espace aérien rempli avec un Appareil redressé | une place peut être libérée avant le déploiement | conforme |
+| Appareil engagé | Retraite interdite | conforme |
+| Appareil avec un Équipement | les deux cartes sont défaussées simultanément | conforme |
+| effet déclenché par « détruit » | aucun déclenchement | conforme |
+| Retraite sans Appareil déployable | interdite | conforme |
+| deux Appareils retirés avant un seul déploiement | seconde Retraite interdite | conforme |
+
+Les effets de cartes qui réagissent à une destruction restent inchangés : la règle générale distingue explicitement Retraite, défausse et destruction. Les catalogues Markdown et CSV ne nécessitent donc aucune réécriture pour cette mécanique.
+
 ## Licence et feuille de route
 
 | Contrôle | Résultat |
@@ -63,7 +76,7 @@ Le lexique, la règle 6, le guide rapide et les cas de test séparent désormais
 | licence des contributions documentée | conforme |
 | feuille de route présente à la racine | conforme |
 
-La feuille de route distingue la réforme des états, terminée en 0.1.1, des changements de règles encore planifiés. Aucun chantier planifié n’est traité comme une règle active dans cette version.
+La feuille de route marque la réforme des états, terminée en 0.1.1, et la résolution du verrouillage de plateau, terminée en 0.1.3. Aucun autre chantier planifié n’est traité comme une règle active dans cette version.
 
 ## Budget des Appareils
 
@@ -90,4 +103,4 @@ Plages observées :
 
 ## Conclusion
 
-La structure et les comptes sont conformes au cahier des charges. L’équilibrage est mathématiquement cohérent au premier ordre, mais il n’est pas encore démontré empiriquement. La version 0.1.2 doit être considérée comme un prototype de test. La nouvelle durée de protection de Furtif doit faire l’objet de parties de non-régression.
+La structure et les comptes sont conformes au cahier des charges. L’équilibrage est mathématiquement cohérent au premier ordre, mais il n’est pas encore démontré empiriquement. La version 0.1.3 doit être considérée comme un prototype de test. La nouvelle durée de protection de Furtif et la fréquence des Retraites doivent faire l’objet de parties de non-régression.

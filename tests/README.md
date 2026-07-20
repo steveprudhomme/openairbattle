@@ -22,6 +22,12 @@ Les tests restent séparés du code de production.
 - fin de l’exposition au début du prochain tour de la personne qui contrôle l’Appareil;
 - Furtif fondé sur l’exposition, y compris pour un Appareil engagé juste après son déploiement;
 - interdiction d’intercepter tout Appareil non exposé;
+- Retraite d’un Appareil redressé suivie immédiatement d’un déploiement;
+- impossibilité de faire battre en Retraite un Appareil engagé;
+- une seule Retraite autorisée avant chaque déploiement et aucune Retraite sans déploiement légal;
+- défausse simultanée de l’Appareil en Retraite et de son Équipement;
+- absence de déclenchement des effets « détruit » lors d’une Retraite;
+- plateau de 5 Appareils renouvelable sans dépasser la limite;
 - dégâts simultanés;
 - destruction et défausse des équipements;
 - Verrouillage, Réseau, Formation et Barrage;

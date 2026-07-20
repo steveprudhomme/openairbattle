@@ -1,6 +1,6 @@
 # Données de jeu
 
-Les fichiers CSV sont les vues structurées du prototype 0.1.2.
+Les fichiers CSV sont les vues structurées du prototype 0.1.3.
 
 Champs de cartes :
 

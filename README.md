@@ -1,4 +1,4 @@
-[![Statut](https://img.shields.io/badge/statut-prototype%20jouable-orange)](CHANGELOG.md) [![Version](https://img.shields.io/badge/version-0.1.2-blue)](CHANGELOG.md) [![Licence](https://img.shields.io/badge/licence-GPL--3.0--only-blue)](LICENSE)
+[![Statut](https://img.shields.io/badge/statut-prototype%20jouable-orange)](CHANGELOG.md) [![Version](https://img.shields.io/badge/version-0.1.3-blue)](CHANGELOG.md) [![Licence](https://img.shields.io/badge/licence-GPL--3.0--only-blue)](LICENSE)
 
 **Open Air Battle est un jeu libre, gratuit et communautaire. Les éléments originaux du projet sont distribués sous la GNU General Public License version 3 uniquement (`GPL-3.0-only`). Voir [LICENSE](LICENSE).**
 
@@ -9,13 +9,14 @@ Open Air Battle est un jeu de cartes à collectionner sur l’aviation militaire
 - les États-Unis coordonnent capteurs, désignations et frappes précises;
 - la Russie construit des formations résistantes et produit de fortes poussées de puissance.
 
-Le prototype 0.1.2 contient :
+Le prototype 0.1.3 contient :
 
 - un système de jeu complet et une méthode d’équilibrage chiffrée;
 - une extension États-Unis de 200 cartes uniques;
 - une extension Russie de 200 cartes uniques;
 - deux decks de départ de 60 cartes exactement;
 - un livret de règles pédagogique pour 9 ans et plus;
+- une mécanique de Retraite qui empêche le verrouillage d’un espace aérien rempli;
 - des catalogues CSV destinés à une future application ou à la mise en page papier.
 
 ## Démarrage rapide

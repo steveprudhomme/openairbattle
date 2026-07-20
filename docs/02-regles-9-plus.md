@@ -88,12 +88,25 @@ Tu ne peux jouer qu’une nouvelle Ressource de base par tour, mais tu peux dép
 
 ## 6. Déployer un Appareil
 
-1. paie son coût;
-2. L’Appareil est placé engagé dans ton espace aérien. Il n’est pas exposé.
-3. résous son effet « au déploiement »;
-4. respecte la limite de 5 Appareils.
+### Retraite
 
-Si tu contrôles déjà 5 Appareils, tu dois attendre qu’une place se libère. Tu ne peux pas en détruire un volontairement.
+Avant le déploiement, tu peux libérer une place dans ton espace aérien :
+
+> **Retraite :** avant de déployer un Appareil, tu peux volontairement défausser un de tes Appareils redressés présent dans ton espace aérien pour libérer une place.
+
+Place l’Appareil choisi et son éventuel Équipement dans ta défausse en même temps. Une Retraite n’est pas une destruction : elle ne déclenche aucun effet qui utilise les mots « détruit » ou « destruction ».
+
+La Retraite n’est pas une action indépendante. Tu ne peux l’effectuer que dans le cadre d’un déploiement que tu peux payer et terminer immédiatement après avoir libéré la place. Tu peux effectuer au plus une Retraite avant chaque déploiement.
+
+### Déploiement
+
+1. effectue éventuellement une Retraite;
+2. paie le coût de l’Appareil à déployer;
+3. L’Appareil est placé engagé dans ton espace aérien. Il n’est pas exposé.
+4. résous son effet « au déploiement »;
+5. respecte la limite de 5 Appareils.
+
+Si tu contrôles encore 5 Appareils après l’éventuelle Retraite, tu ne peux pas effectuer ce déploiement.
 
 Un Appareil qui vient d’être déployé ne peut donc pas être intercepté, même s’il est physiquement tourné de côté. Seule une règle ou un effet qui l’expose peut changer cela.
 
@@ -126,7 +139,7 @@ L’Appareil qui intercepte devient lui aussi exposé : place un marqueur « Exp
 
 ### Équipement
 
-Paie le coût et attache la carte à un de tes Appareils. Un Appareil ne peut avoir qu’un Équipement. Si l’Appareil est détruit, son Équipement va aussi à la défausse.
+Paie le coût et attache la carte à un de tes Appareils. Un Appareil ne peut avoir qu’un Équipement. Si l’Appareil est détruit, son Équipement va aussi à la défausse. Si l’Appareil effectue une Retraite, son Équipement est défaussé en même temps que lui sans être détruit.
 
 Si un Équipement augmente les PV, recalcule immédiatement les PV maximums. Si l’Équipement quitte le jeu et que les dégâts restants atteignent les nouveaux PV, l’Appareil est détruit.
 
@@ -192,6 +205,7 @@ Si un effet te fait dépasser 12, garde le total réel. Dans le cas exceptionnel
 - « un autre » exclut la carte qui porte l’effet;
 - les nombres ne peuvent pas descendre sous 0;
 - engager ou redresser un Appareil ne change pas son exposition, sauf si une règle ou un effet le précise;
+- défausser un Appareil ou lui faire effectuer une Retraite n’est pas le détruire;
 - une carte quittant le jeu perd ses dégâts, marqueurs et effets temporaires.
 
 Le sous-type est aussi une liste de traits. Une carte est « hélicoptère », « drone », « chasseur », « bombardier », « maritime », « transport » ou « ravitaillement » si ce mot apparaît dans son nom ou son sous-type. Les accents, majuscules et singuliers ne changent pas le trait.

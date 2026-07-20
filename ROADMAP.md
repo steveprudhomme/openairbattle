@@ -9,7 +9,7 @@ Cette feuille de route ordonne les améliorations de règles et de construction 
 | Priorité | Chantier | Statut |
 | --- | --- | --- |
 | Critique | Réforme de l’ergonomie de l’état des cartes | Terminé dans la version 0.1.1 |
-| Haute | Résolution du verrouillage de plateau — Board Lock | Planifié |
+| Haute | Résolution du verrouillage de plateau — Board Lock | Terminé dans la version 0.1.3 |
 | Haute | Rééquilibrage de la matrice des incitations | Planifié |
 | Modérée | Assouplissement de la variance du mulligan | Planifié |
 | Suivi | Ajout des mécaniques d’interruption absentes | Audit puis mise en œuvre |
@@ -37,7 +37,7 @@ Furtif est utile dès le déploiement. Un Appareil qui vient d’arriver ne peut
 
 ## 2. Résolution du verrouillage de plateau — Board Lock — Priorité haute
 
-**Statut : planifié.**
+**Statut : terminé dans la version 0.1.3.**
 
 ### Problématique
 
@@ -51,11 +51,13 @@ Amender la règle 6 et introduire la mécanique de **Retraite** :
 
 L’exigence que l’Appareil soit redressé empêche d’abuser du système en sacrifiant une unité qui vient de marquer des points, car celle-ci est engagée.
 
-### Validation attendue
+### Résolution livrée
 
-- vérifier qu’une Retraite ne déclenche pas les effets liés à la destruction;
-- préciser le devenir de l’Équipement attaché à l’Appareil retiré;
-- tester les situations à cinq Appareils et les boucles de déploiement.
+- une Retraite ne déclenche pas les effets liés à la destruction;
+- l’Équipement attaché est défaussé en même temps que l’Appareil;
+- une Retraite doit être suivie immédiatement du déploiement annoncé;
+- une seule Retraite est permise avant chaque déploiement;
+- les situations à cinq Appareils et les boucles de déploiement sont couvertes par les cas de non-régression.
 
 ## 3. Rééquilibrage de la matrice des incitations — Priorité haute
 

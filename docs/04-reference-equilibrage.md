@@ -50,6 +50,12 @@ Les mots-clés ne sont pas purement additifs. Furtif et Mission 3, par exemple, 
 
 Depuis la version 0.1.1, Furtif dépend de l’exposition et non de l’orientation : il protège donc aussi un Appareil engagé mais non exposé, notamment juste après son déploiement. Sa valeur de 2,0 est conservée provisoirement; elle doit être contrôlée en partie avant toute hausse, car cette protection commence désormais un tour plus tôt.
 
+### Retraite et renouvellement du plateau
+
+La Retraite est une règle universelle et n’ajoute aucune valeur au budget d’une carte. Son coût est la perte volontaire d’un Appareil redressé, de ses dégâts et marqueurs, ainsi que de son éventuel Équipement. Comme elle n’est pas une destruction, elle ne déclenche aucune compensation écrite pour un Appareil détruit.
+
+En partie, relever le nombre de Retraites, le coût des Appareils retirés et la fréquence de réutilisation des effets « au déploiement ». Une Retraite devient suspecte si retirer un Appareil peu coûteux pour rejouer un effet de déploiement est presque toujours optimal.
+
 ## 4. Cartes non Appareil
 
 Budget cible :
@@ -113,6 +119,7 @@ Pour chaque partie :
 - une carte jamais gardée ni jouée;
 - une partie décidée par une seule ressource manquée;
 - une boucle de redressement produisant plus de 4 points en un tour;
+- plus de 2 Retraites par personne dans une partie courte ou une boucle rentable d’effets de déploiement;
 - un verrouillage sans contre-jeu;
 - plus de 6 dégâts hors combat en un tour;
 - une différence de taux de victoire supérieure à 10 points après 100 parties.

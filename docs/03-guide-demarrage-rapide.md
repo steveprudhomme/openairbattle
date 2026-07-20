@@ -19,6 +19,12 @@ Atteindre 12 points de suprématie avant l’adversaire.
 
 Un Appareil qui vient d’être déployé est **engagé, mais pas exposé**. Il ne peut pas agir tout de suite et l’adversaire ne peut pas l’intercepter. Tourner une carte de côté ne l’expose jamais à lui seul.
 
+## Retraite
+
+Avant de déployer un Appareil, tu peux défausser un de tes Appareils redressés pour libérer une place. Défausse aussi son Équipement, puis déploie immédiatement l’Appareil annoncé.
+
+Une Retraite n’est pas une destruction et ne déclenche pas les effets qui parlent d’un Appareil détruit. Un Appareil engagé ne peut pas effectuer de Retraite.
+
 ## Ton tour
 
 Répète :
@@ -41,7 +47,7 @@ Répète :
 
 ## À retenir
 
-- 5 Appareils maximum;
+- 5 Appareils maximum; si l’espace est plein, utilise la Retraite avant un déploiement;
 - 1 Équipement par Appareil;
 - 2 Soutiens maximum;
 - Furtif protège des Tactiques et effets de Soutien tant que l’Appareil n’est pas exposé;

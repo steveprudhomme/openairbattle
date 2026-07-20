@@ -17,6 +17,8 @@ La profondeur vient d’un choix visible à chaque tour : un appareil prêt peut
 
 Cette boucle reprend des qualités pédagogiques éprouvées dans les TCG accessibles : zones peu nombreuses, économie croissante, texte local sur les cartes et objectif positif visible.
 
+Depuis la version 0.1.3, la Retraite empêche un espace aérien rempli de verrouiller la partie : avant un déploiement, un Appareil redressé peut céder sa place. Ce départ n’est pas une destruction et ne récompense donc pas les synergies fondées sur la perte au combat.
+
 ## 3. Types de cartes
 
 | Type | Fonction | Limite |
@@ -37,7 +39,7 @@ Cette boucle reprend des qualités pédagogiques éprouvées dans les TCG access
 - défausse;
 - piste de suprématie de 0 à 12.
 
-Il n’y a ni pile de réaction ni action pendant le tour adverse dans la version 0.1.2. Ce choix réduit fortement la charge cognitive et les disputes de priorité.
+Il n’y a ni pile de réaction ni action pendant le tour adverse dans la version 0.1.3. Ce choix réduit fortement la charge cognitive et les disputes de priorité.
 
 ## 5. Identité des factions
 
