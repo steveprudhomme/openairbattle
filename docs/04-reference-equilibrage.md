@@ -4,9 +4,10 @@
 
 - partie médiane : 8 à 11 tours par personne;
 - durée : 25 à 35 minutes;
+- seuil de victoire : 15 points de suprématie;
 - premier point de suprématie : tours 2 à 4;
 - taux de victoire des starters : 45 % à 55 % sur un échantillon d’au moins 100 parties;
-- moins de 10 % des mains initiales injouables après la règle de nouvelle main.
+- moins de 10 % des mains conservées ou repiochées jugées injouables.
 
 ## 2. Appareils
 
@@ -28,6 +29,8 @@ avec :
 - D : contraintes ou risques.
 
 Tolérance standard : |V − T(C)| ≤ 1. Une carte vedette peut aller jusqu’à 1,5 si son deck comporte une vraie contrainte.
+
+Depuis la version 0.1.4, la destruction de la cible principale d’une Interception rapporte 1 point de suprématie. Le coefficient 1,5 de Puissance est conservé provisoirement pour ne pas réécrire les 160 Appareils avant des parties comparatives. Il devra être réestimé si les Appareils à forte Puissance produisent un avantage de Domination disproportionné.
 
 ## 3. Barème initial
 
@@ -95,19 +98,24 @@ Les probabilités hypergéométriques avec 20 ressources sur 60 sont :
 
 | Cartes vues | au moins 1 ressource | au moins 2 | au moins 3 |
 | ---: | ---: | ---: | ---: |
+| 6 | 92,33 % | 66,05 % | 31,36 % |
 | 7 | 95,17 % | 75,30 % | 42,92 % |
 | 8 | 96,99 % | 82,42 % | 53,92 % |
 | 9 | 98,15 % | 87,75 % | 63,78 % |
 | 10 | 98,88 % | 91,62 % | 72,24 % |
+
+Depuis la version 0.1.5, toute main initiale de 7 cartes peut être remélangée dans le deck et remplacée une seule fois par 6 cartes. La probabilité de 92,33 % décrit cette nouvelle main après remélange complet; le mulligan améliore la liberté de sélection, mais sa pénalité d’une carte et l’interdiction d’un second essai empêchent d’en faire un outil de recherche sans coût.
 
 ## 6. Tests à enregistrer
 
 Pour chaque partie :
 
 - faction et première personne;
-- main conservée ou repiochée;
+- main conservée ou repiochée, motif du choix et nombre de ressources avant et après;
 - ressources aux tours 1 à 5;
 - suprématie à chaque tour;
+- suprématie gagnée par Mission et par Récompense de Domination;
+- Interceptions tentées, cibles détruites et destructions simultanées;
 - cartes jamais jouables;
 - résultat et tour final;
 - règle relue;
@@ -118,8 +126,10 @@ Pour chaque partie :
 - une carte jouée automatiquement dès qu’elle est disponible;
 - une carte jamais gardée ni jouée;
 - une partie décidée par une seule ressource manquée;
+- un écart durable de taux de victoire entre les mains conservées et les mains repiochées;
 - une boucle de redressement produisant plus de 4 points en un tour;
 - plus de 2 Retraites par personne dans une partie courte ou une boucle rentable d’effets de déploiement;
+- un écart durable entre factions dans les points de Récompense de Domination;
 - un verrouillage sans contre-jeu;
 - plus de 6 dégâts hors combat en un tour;
 - une différence de taux de victoire supérieure à 10 points après 100 parties.

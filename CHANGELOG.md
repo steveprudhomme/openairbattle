@@ -16,6 +16,39 @@ Tous les changements notables sont consignés ici. Le format suit Keep a Changel
 
 ### Sécurité
 
+## [0.1.5] - 2026-07-20
+
+### Ajouté
+
+- cas de non-régression pour l’éligibilité, la taille de la nouvelle main et l’interdiction d’un second mulligan;
+- suivi du motif du mulligan et du nombre de Ressources avant et après son utilisation.
+
+### Changé
+
+- toute main initiale peut désormais être remélangée et remplacée une fois, indépendamment de son contenu;
+- le mulligan fait piocher 6 nouvelles cartes au lieu de 7;
+- règles, guide rapide, référence d’équilibrage, feuille de route et rapport alignés sur le mulligan universel.
+
+### Corrigé
+
+- une main contenant des Ressources mais dépourvue de synergie n’est plus exclue du mulligan.
+
+## [0.1.4] - 2026-07-20
+
+### Ajouté
+
+- Récompense de Domination de 1 point lorsqu’une Interception détruit sa cible;
+- cas de non-régression pour les destructions simultanées, Barrage et la victoire immédiate.
+
+### Changé
+
+- seuil de victoire relevé de 12 à 15 points de suprématie;
+- règles, guide rapide, modèle d’équilibrage, feuille de route et rapport alignés sur la nouvelle incitation au combat.
+
+### Corrigé
+
+- intercepter peut désormais faire progresser directement vers la victoire au lieu de constituer uniquement une perte de tempo.
+
 ## [0.1.3] - 2026-07-20
 
 ### Ajouté
@@ -69,7 +102,9 @@ Tous les changements notables sont consignés ici. Le format suit Keep a Changel
 - catalogues CSV;
 - politiques communautaires, de soutien, de sécurité et de gouvernance.
 
-[Unreleased]: [URL_DU_DEPOT]/compare/v0.1.3...HEAD
+[Unreleased]: [URL_DU_DEPOT]/compare/v0.1.5...HEAD
+[0.1.5]: [URL_DU_DEPOT]/compare/v0.1.4...v0.1.5
+[0.1.4]: [URL_DU_DEPOT]/compare/v0.1.3...v0.1.4
 [0.1.3]: [URL_DU_DEPOT]/compare/v0.1.2...v0.1.3
 [0.1.2]: [URL_DU_DEPOT]/compare/v0.1.1...v0.1.2
 [0.1.1]: [URL_DU_DEPOT]/compare/v0.1.0...v0.1.1

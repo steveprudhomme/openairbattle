@@ -1,4 +1,4 @@
-# Rapport de validation du prototype 0.1.3
+# Rapport de validation du prototype 0.1.5
 
 Date : 20 juillet 2026.
 
@@ -66,6 +66,32 @@ Le lexique, la règle 6, le guide rapide et les cas de test séparent désormais
 
 Les effets de cartes qui réagissent à une destruction restent inchangés : la règle générale distingue explicitement Retraite, défausse et destruction. Les catalogues Markdown et CSV ne nécessitent donc aucune réécriture pour cette mécanique.
 
+## Validation de la Récompense de Domination
+
+| Cas | Gain de la personne qui intercepte | Gain de l’adversaire | Résultat |
+| --- | ---: | ---: | --- |
+| cible détruite, intercepteur survivant | 1 | 0 | conforme |
+| cible et intercepteur détruits simultanément | 1 | 0 | conforme |
+| cible survivante | 0 | 0 | conforme |
+| autre Appareil détruit par Barrage | 0 point supplémentaire | 0 | conforme |
+| plusieurs destructions liées à une Interception | 1 maximum | 0 | conforme |
+| passage de 14 à 15 par la récompense | victoire immédiate | — | conforme |
+
+Le seuil de victoire, le matériel, le résumé, la boucle de jeu et les conditions de victoire indiquent désormais 15 points. Les textes des cartes restent inchangés : aucun ne contient un seuil de victoire ni n’accorde directement cette récompense.
+
+## Validation du mulligan
+
+| Cas | Résultat attendu | Résultat |
+| --- | --- | --- |
+| main initiale sans Ressource | mulligan autorisé | conforme |
+| main initiale avec une ou plusieurs Ressources | mulligan autorisé | conforme |
+| utilisation du mulligan | main montrée puis remélangée dans le deck | conforme |
+| taille de la main de remplacement | 6 cartes | conforme |
+| nouvelle main sans Ressource ou non synergique | elle doit être conservée | conforme |
+| tentative de second mulligan | interdite | conforme |
+
+La règle 3.4 et le guide rapide ne conditionnent plus le mulligan au contenu de la main. Avec 20 Ressources dans 60 cartes, une nouvelle main de 6 cartes contient au moins une Ressource dans environ 92,33 % des cas. Les catalogues et les starters restent inchangés, car cette règle ne modifie ni les cartes ni la construction des decks.
+
 ## Licence et feuille de route
 
 | Contrôle | Résultat |
@@ -76,7 +102,7 @@ Les effets de cartes qui réagissent à une destruction restent inchangés : la 
 | licence des contributions documentée | conforme |
 | feuille de route présente à la racine | conforme |
 
-La feuille de route marque la réforme des états, terminée en 0.1.1, et la résolution du verrouillage de plateau, terminée en 0.1.3. Aucun autre chantier planifié n’est traité comme une règle active dans cette version.
+La feuille de route marque comme terminés la réforme des états en 0.1.1, le verrouillage de plateau en 0.1.3, la matrice des incitations en 0.1.4 et l’assouplissement du mulligan en 0.1.5. Aucun autre chantier planifié n’est traité comme une règle active dans cette version.
 
 ## Budget des Appareils
 
@@ -103,4 +129,4 @@ Plages observées :
 
 ## Conclusion
 
-La structure et les comptes sont conformes au cahier des charges. L’équilibrage est mathématiquement cohérent au premier ordre, mais il n’est pas encore démontré empiriquement. La version 0.1.3 doit être considérée comme un prototype de test. La nouvelle durée de protection de Furtif et la fréquence des Retraites doivent faire l’objet de parties de non-régression.
+La structure et les comptes sont conformes au cahier des charges. L’équilibrage est mathématiquement cohérent au premier ordre, mais il n’est pas encore démontré empiriquement. La version 0.1.5 doit être considérée comme un prototype de test. Furtif, la fréquence des Retraites, la répartition des points entre Mission et Domination ainsi que l’usage du mulligan doivent faire l’objet de parties de non-régression.

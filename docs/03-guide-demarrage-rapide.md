@@ -2,13 +2,13 @@
 
 ## But
 
-Atteindre 12 points de suprématie avant l’adversaire.
+Atteindre 15 points de suprématie avant l’adversaire.
 
 ## Installation
 
 - mélange ton deck de 60 cartes;
 - pioche 7 cartes;
-- si tu n’as aucune ressource, montre ta main et repioche une fois;
+- une seule fois, tu peux montrer ta main, la remélanger dans le deck et piocher 6 nouvelles cartes, quel que soit son contenu; tu dois garder ces 6 cartes;
 - choisis au hasard la première personne;
 - prépare des marqueurs « Exposé ».
 
@@ -24,6 +24,10 @@ Un Appareil qui vient d’être déployé est **engagé, mais pas exposé**. Il 
 Avant de déployer un Appareil, tu peux défausser un de tes Appareils redressés pour libérer une place. Défausse aussi son Équipement, puis déploie immédiatement l’Appareil annoncé.
 
 Une Retraite n’est pas une destruction et ne déclenche pas les effets qui parlent d’un Appareil détruit. Un Appareil engagé ne peut pas effectuer de Retraite.
+
+## Récompense de Domination
+
+Si l’Appareil adverse que tu interceptes est détruit, gagne 1 point de suprématie, même si ton Appareil est détruit en même temps. La riposte adverse ne rapporte aucun point. Tu peux gagner au plus 1 point par Interception. Une destruction causée ensuite par Barrage ne rapporte pas ce point.
 
 ## Ton tour
 
@@ -52,4 +56,5 @@ Répète :
 - 2 Soutiens maximum;
 - Furtif protège des Tactiques et effets de Soutien tant que l’Appareil n’est pas exposé;
 - dégâts au moins égaux aux PV : destruction;
-- premier à 12 : victoire.
+- mulligan facultatif une seule fois : 7 cartes remplacées par 6;
+- premier à 15 : victoire.

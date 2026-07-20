@@ -2,12 +2,12 @@
 
 ## La mission en une minute
 
-Tu commandes une force aérienne. Déploie des appareils, accomplis des missions et intercepte les appareils adverses. La première personne qui atteint 12 points de suprématie gagne.
+Tu commandes une force aérienne. Déploie des appareils, accomplis des missions et intercepte les appareils adverses. La première personne qui atteint 15 points de suprématie gagne.
 
 Un appareil ne peut faire qu’une grande action par tour :
 
 - Mission : marque ses points de Mission;
-- Interception : combat un appareil adverse exposé.
+- Interception : combat un appareil adverse exposé et marque 1 point si elle le détruit.
 
 Dans les deux cas, tourne la carte de côté. Elle devient engagée parce qu’elle a agi, et exposée parce qu’elle a pris part à une action aérienne. Ces deux états sont différents et durent normalement jusqu’au début de ton prochain tour.
 
@@ -27,7 +27,7 @@ Chaque personne a :
 - un deck de 60 cartes;
 - des marqueurs de dégâts;
 - des marqueurs « Exposé »;
-- un compteur de suprématie de 0 à 12;
+- un compteur de suprématie de 0 à 15;
 - un marqueur « une ressource jouée » facultatif;
 - des marqueurs Verrouillage si son deck en utilise.
 
@@ -47,8 +47,10 @@ Les dégâts restent sur la carte. Dès qu’ils atteignent ou dépassent ses PV
 1. Place ton deck face cachée.
 2. Mets ton compteur à 0.
 3. Mélange et pioche 7 cartes.
-4. Si tu n’as aucune Ressource de base, montre ta main, remélange-la dans le deck et pioche 7 nouvelles cartes. Tu peux le faire une fois.
+4. Une seule fois au début de la partie, tu peux montrer ta main, la remélanger dans le deck, et piocher 6 nouvelles cartes (au lieu de 7), indépendamment de son contenu.
 5. Déterminez au hasard qui commence.
+
+Si tu utilises ce mulligan, tu dois garder la nouvelle main de 6 cartes : tu ne peux pas effectuer un second mulligan.
 
 La première personne ne pioche pas au début de son premier tour. Tous les Appareils arrivent normalement engagés, mais non exposés : personne ne peut donc marquer immédiatement avec un Appareil tout juste déployé, et l’adversaire ne peut pas l’intercepter.
 
@@ -130,10 +132,21 @@ Tu peux intercepter seulement un Appareil adverse exposé.
 4. les deux Appareils s’infligent leur Puissance en dégâts en même temps;
 5. applique Blindage, Agile et Verrouillage;
 6. détruis tout Appareil dont les dégâts atteignent ses PV.
+7. si l’Appareil adverse intercepté a été détruit pendant cette Interception, applique la Récompense de Domination.
 
-Exemple : un appareil de Puissance 4 intercepte un appareil de Puissance 3. Le premier reçoit 3 dégâts et le second en reçoit 4.
+Exemple : un appareil de Puissance 4 intercepte un appareil de Puissance 3. Le premier reçoit 3 dégâts et le second en reçoit 4. Si le second est détruit, la personne qui a initié l’Interception gagne 1 point, même si le premier est également détruit.
 
-L’Appareil qui intercepte devient lui aussi exposé : place un marqueur « Exposé » sur lui. La cible l’était déjà et garde son marqueur.
+L’Appareil qui intercepte devient lui aussi exposé. S’il est encore en jeu après le combat, place un marqueur « Exposé » sur lui. La cible l’était déjà et garde son marqueur tant qu’elle reste en jeu.
+
+### Récompense de Domination
+
+> **Récompense de Domination :** Si ton Interception détruit un Appareil adverse, ajoute 1 point à ta Suprématie.
+
+Vérifie cette récompense une seule fois après les destructions de l’étape 6. Tu peux gagner au plus 1 point de cette façon par Interception. Tu gagnes ce point même si ton propre Appareil est détruit simultanément.
+
+Seule la personne qui a initié l’Interception peut gagner la récompense. La riposte qui détruit l’Appareil intercepteur ne rapporte donc aucun point à l’adversaire. La destruction d’un autre Appareil par Barrage ou par un effet résolu après l’Interception ne rapporte pas de point supplémentaire.
+
+Si cette récompense te fait atteindre 15 points de suprématie, tu gagnes immédiatement.
 
 ## 9. Équipements, Tactiques et Soutiens
 
@@ -159,7 +172,7 @@ La première fois chaque tour que cet Appareil devrait recevoir des dégâts de 
 
 ### Barrage X
 
-Après que cet Appareil termine une Interception, il peut infliger X dégât à un autre Appareil adverse exposé. Barrage ne déclenche pas de riposte.
+Après que cet Appareil termine une Interception, il peut infliger X dégât à un autre Appareil adverse exposé. Barrage ne déclenche pas de riposte et ses destructions n’accordent pas de Récompense de Domination.
 
 ### Blindage X
 
@@ -191,10 +204,10 @@ Formation est un mot-rappel russe. L’effet écrit après Formation fonctionne 
 
 Tu gagnes immédiatement si :
 
-- tu atteins 12 points de suprématie ou plus; ou
+- tu atteins 15 points de suprématie ou plus; ou
 - ton adversaire doit piocher dans un deck vide.
 
-Si un effet te fait dépasser 12, garde le total réel. Dans le cas exceptionnel où plusieurs conditions seraient vraies au même moment, la suprématie l’emporte sur le deck vide; si les deux personnes ont la même condition, celle qui a le plus de suprématie gagne. Une égalité parfaite donne une partie nulle.
+Si un effet te fait dépasser 15, garde le total réel. Dans le cas exceptionnel où plusieurs conditions seraient vraies au même moment, la suprématie l’emporte sur le deck vide; si les deux personnes ont la même condition, celle qui a le plus de suprématie gagne. Une égalité parfaite donne une partie nulle.
 
 ## 13. Règles de lecture
 

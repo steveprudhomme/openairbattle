@@ -12,12 +12,16 @@ La profondeur vient d’un choix visible à chaque tour : un appareil prêt peut
 2. ajouter au plus une ressource;
 3. déployer ou préparer sa force;
 4. accomplir des missions pour gagner de la suprématie;
-5. intercepter les appareils exposés;
-6. atteindre 12 points de suprématie.
+5. intercepter les appareils exposés et gagner 1 point lorsqu’une Interception détruit sa cible;
+6. atteindre 15 points de suprématie.
 
 Cette boucle reprend des qualités pédagogiques éprouvées dans les TCG accessibles : zones peu nombreuses, économie croissante, texte local sur les cartes et objectif positif visible.
 
 Depuis la version 0.1.3, la Retraite empêche un espace aérien rempli de verrouiller la partie : avant un déploiement, un Appareil redressé peut céder sa place. Ce départ n’est pas une destruction et ne récompense donc pas les synergies fondées sur la perte au combat.
+
+Depuis la version 0.1.4, la Récompense de Domination donne une progression directe au combat : détruire la cible d’une Interception rapporte 1 point, au plus une fois par Interception. Le seuil de victoire passe parallèlement à 15 pour que cette nouvelle source de points valorise l’interaction sans raccourcir excessivement la partie.
+
+Depuis la version 0.1.5, chaque personne peut remplacer une fois sa main initiale, quel que soit son contenu. La nouvelle main ne compte que 6 cartes : cette perte d’une carte borne l’usage du mulligan tout en offrant une sortie face à une main non synergique.
 
 ## 3. Types de cartes
 
@@ -37,9 +41,9 @@ Depuis la version 0.1.3, la Retraite empêche un espace aérien rempli de verrou
 - espace aérien;
 - zone de soutien;
 - défausse;
-- piste de suprématie de 0 à 12.
+- piste de suprématie de 0 à 15.
 
-Il n’y a ni pile de réaction ni action pendant le tour adverse dans la version 0.1.3. Ce choix réduit fortement la charge cognitive et les disputes de priorité.
+Il n’y a ni pile de réaction ni action pendant le tour adverse dans la version 0.1.5. Ce choix réduit fortement la charge cognitive et les disputes de priorité.
 
 ## 5. Identité des factions
 
@@ -88,7 +92,7 @@ où K est la valeur des mots-clés, E celle de l’effet et D la valeur des cont
 Les coefficients expriment trois réalités ludiques :
 
 - 1 PV absorbe approximativement 1 dégât;
-- 1 Puissance est répétable et vaut donc plus qu’un dégât ponctuel;
+- 1 Puissance est répétable, contribue aux destructions récompensées et vaut donc plus qu’un dégât ponctuel;
 - 1 Mission peut se répéter mais expose l’appareil et consomme son action.
 
 Les cartes non Appareil utilisent une échelle distincte :
@@ -106,7 +110,7 @@ Chaque starter contient :
 - 26 cartes actives différentes;
 - au plus 2 copies de toute carte non basique.
 
-Avec 20 ressources dans 60 cartes, la probabilité d’en voir au moins une dans une main initiale de 7 est d’environ 95,17 %. Après dix cartes vues, la probabilité d’avoir vu au moins trois ressources est d’environ 72,24 %. La règle de nouvelle main sans ressource protège les cas restants.
+Avec 20 ressources dans 60 cartes, la probabilité d’en voir au moins une dans une main initiale de 7 est d’environ 95,17 %. Le mulligan universel permet de remélanger cette main puis d’en piocher 6; cette main de remplacement contient au moins une ressource dans environ 92,33 % des cas. Ce mulligan ne garantit donc pas une ressource, mais il permet aussi de remplacer une main légale dont les cartes fonctionnent mal ensemble.
 
 ## 8. Base de l’architecture du dépôt
 

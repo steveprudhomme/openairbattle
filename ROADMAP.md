@@ -10,8 +10,8 @@ Cette feuille de route ordonne les améliorations de règles et de construction 
 | --- | --- | --- |
 | Critique | Réforme de l’ergonomie de l’état des cartes | Terminé dans la version 0.1.1 |
 | Haute | Résolution du verrouillage de plateau — Board Lock | Terminé dans la version 0.1.3 |
-| Haute | Rééquilibrage de la matrice des incitations | Planifié |
-| Modérée | Assouplissement de la variance du mulligan | Planifié |
+| Haute | Rééquilibrage de la matrice des incitations | Terminé dans la version 0.1.4 |
+| Modérée | Assouplissement de la variance du mulligan | Terminé dans la version 0.1.5 |
 | Suivi | Ajout des mécaniques d’interruption absentes | Audit puis mise en œuvre |
 | À décider | Amélioration de la construction de deck | Décision de format requise |
 
@@ -61,7 +61,7 @@ L’exigence que l’Appareil soit redressé empêche d’abuser du système en 
 
 ## 3. Rééquilibrage de la matrice des incitations — Priorité haute
 
-**Statut : planifié.**
+**Statut : terminé dans la version 0.1.4.**
 
 ### Problématique
 
@@ -72,20 +72,21 @@ Intercepter ne rapporte aucun point et ralentit sa propre victoire face au seuil
 - augmenter le seuil de victoire de 12 à **15 points de Suprématie**;
 - introduire la règle fondamentale suivante :
 
-> **Récompense de Domination :** si ton Interception détruit un Appareil adverse, ajoute 1 point à ta Suprématie.
+> **Récompense de Domination :** Si ton Interception détruit un Appareil adverse, ajoute 1 point à ta Suprématie.
 
 Cette modification valorise immédiatement l’interactivité et transforme le combat en une décision tactique viable plutôt qu’en une simple perte de tempo.
 
-### Validation attendue
+### Résolution livrée
 
-- mesurer la durée moyenne des parties et le tour médian de victoire;
-- comparer les points gagnés par Mission et par Récompense de Domination;
-- préciser le cas des destructions simultanées et celui des dégâts différés;
-- contrôler l’équilibre des deux starters avant adoption définitive.
+- le seuil de victoire est fixé à 15 points de Suprématie;
+- la cible principale détruite rapporte 1 point, même en cas de destruction simultanée de l’intercepteur;
+- seule la personne qui initie l’Interception reçoit la récompense;
+- chaque Interception rapporte au plus 1 point, sans récompense supplémentaire pour Barrage ou un effet postérieur;
+- la durée des parties et la répartition des points entre Mission et Domination restent à mesurer en non-régression.
 
 ## 4. Assouplissement de la variance du mulligan — Priorité modérée
 
-**Statut : planifié.**
+**Statut : terminé dans la version 0.1.5.**
 
 ### Problématique
 
@@ -95,15 +96,17 @@ Le mulligan n’est autorisé que pour une main contenant zéro Ressource, ce qu
 
 Standardiser la règle 3.4 :
 
-> Une seule fois au début de la partie, tu peux montrer ta main, la remélanger dans le deck et piocher 6 nouvelles cartes au lieu de 7, indépendamment de son contenu.
+> Une seule fois au début de la partie, tu peux montrer ta main, la remélanger dans le deck, et piocher 6 nouvelles cartes (au lieu de 7), indépendamment de son contenu.
 
 La perte d’une carte punit l’abus tout en garantissant une échappatoire face à une main non viable.
 
-### Validation attendue
+### Résolution livrée
 
-- mesurer la fréquence d’utilisation du mulligan;
-- comparer les taux de victoire après conservation ou remplacement de la main;
-- vérifier si révéler la main reste nécessaire lorsque son contenu n’impose plus l’éligibilité.
+- toute main initiale peut être remplacée, même si elle contient une ou plusieurs Ressources;
+- la main initiale est montrée puis entièrement remélangée dans le deck;
+- la main de remplacement contient 6 cartes et doit être conservée;
+- chaque personne ne peut effectuer ce mulligan qu’une seule fois;
+- les tests suivent son utilisation, son motif et le nombre de Ressources avant et après.
 
 ## 5. Ajout des mécaniques d’interruption absentes — Priorité de suivi
 

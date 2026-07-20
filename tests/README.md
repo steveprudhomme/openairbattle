@@ -16,6 +16,10 @@ Les tests restent séparés du code de production.
 ## Tests unitaires futurs
 
 - paiement et redressement des ressources;
+- mulligan autorisé une fois avec toute main initiale, indépendamment de son contenu;
+- main initiale montrée et entièrement remélangée avant la nouvelle pioche;
+- main de remplacement de 6 cartes obligatoirement conservée, même sans Ressource;
+- second mulligan interdit;
 - déploiement normal : Appareil engagé, non exposé et non interceptable;
 - Décollage rapide : Appareil redressé, non exposé, puis exposé seulement après son action;
 - engagement et exposition indépendants : engager n’expose pas, redresser par un effet ne retire pas l’exposition;
@@ -28,6 +32,12 @@ Les tests restent séparés du code de production.
 - défausse simultanée de l’Appareil en Retraite et de son Équipement;
 - absence de déclenchement des effets « détruit » lors d’une Retraite;
 - plateau de 5 Appareils renouvelable sans dépasser la limite;
+- Récompense de Domination de 1 point lorsque la cible interceptée est détruite;
+- Récompense accordée si les deux Appareils sont détruits simultanément;
+- aucune récompense pour la personne en défense lorsque sa riposte détruit l’intercepteur;
+- aucune récompense si la cible survit;
+- maximum de 1 point par Interception, sans point supplémentaire pour Barrage ou un effet postérieur;
+- victoire immédiate lorsque la récompense porte la suprématie à 15;
 - dégâts simultanés;
 - destruction et défausse des équipements;
 - Verrouillage, Réseau, Formation et Barrage;
@@ -48,7 +58,7 @@ Conserver pour chaque version :
 - taux de victoire par faction;
 - durée médiane;
 - tour médian du premier point;
-- fréquence des mains sans ressource;
+- fréquence d’utilisation du mulligan, motif déclaré et Ressources avant et après;
 - cartes gardées, jouées et mortes en main.
 
 Un objectif raisonnable pour un premier échantillon de 100 parties est un taux de victoire compris entre 45 % et 55 % pour chaque starter, sans conclure à l’équilibre définitif.
